@@ -27,9 +27,9 @@ def input_guess(guess):
     num1 = int(guess)
     if num1 == num:
         print("Correct")
-    elif num1 >= num:
+    elif num1 > num:
         print("Greater")
-    elif num1 <= num:
+    elif num1 < num:
         print("Lower")
 
 
